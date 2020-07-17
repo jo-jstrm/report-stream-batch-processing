@@ -1,6 +1,6 @@
 # Report on Stream and Batch Processing
 
-This is an academic report on stream and batch processing from TU Berlin's Database Seminar (summer semester 2019).
+This my academic report on stream and batch processing from TU Berlin's Database Seminar (summer semester 2019).
 
 ## Abstract
 
