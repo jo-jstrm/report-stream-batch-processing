@@ -1,0 +1,227 @@
+@article{Stratosphere2014,
+ author = {Alexandrov, Alexander and Bergmann, Rico and Ewen, Stephan and Freytag, Johann-Christoph and Hueske, Fabian and Heise, Arvid and Kao, Odej and Leich, Marcus and Leser, Ulf and Markl, Volker and Naumann, Felix and Peters, Mathias and Rheinl\"{a}nder, Astrid and Sax, Matthias J. and Schelter, Sebastian and H\"{o}ger, Mareike and Tzoumas, Kostas and Warneke, Daniel},
+ title = {The Stratosphere Platform for Big Data Analytics},
+ journal = {The VLDB Journal},
+ issue_date = {December  2014},
+ volume = {23},
+ number = {6},
+ month = dec,
+ year = {2014},
+ issn = {1066-8888},
+ pages = {939--964},
+ numpages = {26},
+ url = {https://doi.org/10.1007/s00778-014-0357-y},
+ doi = {10.1007/s00778-014-0357-y},
+ acmid = {2691544},
+ publisher = {Springer-Verlag},
+ address = {Berlin, Heidelberg},
+ keywords = {Big data, Data cleansing, Distributed systems, Graph processing, Parallel databases, Query Optimization, Query processing, Text mining},
+} 
+
+@Article{Aurora2003,
+author="Abadi, Daniel J.
+and Carney, Don
+and {\c{C}}etintemel, Ugur
+and Cherniack, Mitch
+and Convey, Christian
+and Lee, Sangdon
+and Stonebraker, Michael
+and Tatbul, Nesime
+and Zdonik, Stan",
+title="Aurora: a new model and architecture for data stream management",
+journal="The VLDB Journal",
+year="2003",
+month="Aug",
+day="01",
+volume="12",
+number="2",
+pages="120--139",
+abstract="This paper describes the basic processing model and architecture of Aurora, a new system to manage data streams for monitoring applications. Monitoring applications differ substantially from conventional business data processing. The fact that a software system must process and react to continual inputs from many sources (e.g., sensors) rather than from human operators requires one to rethink the fundamental architecture of a DBMS for this application area. In this paper, we present Aurora, a new DBMS currently under construction at Brandeis University, Brown University, and M.I.T. We first provide an overview of the basic Aurora model and architecture and then describe in detail a stream-oriented set of operators.",
+issn="0949-877X",
+doi="10.1007/s00778-003-0095-z",
+url="https://doi.org/10.1007/s00778-003-0095-z"
+}
+
+@Inbook{AuroraBorealis2016,
+author="{\c{C}}etintemel, U{\u{g}}ur
+and Abadi, Daniel
+and Ahmad, Yanif
+and Balakrishnan, Hari
+and Balazinska, Magdalena
+and Cherniack, Mitch
+and Hwang, Jeong-Hyon
+and Madden, Samuel
+and Maskey, Anurag
+and Rasin, Alexander
+and Ryvkina, Esther
+and Stonebraker, Mike
+and Tatbul, Nesime
+and Xing, Ying
+and Zdonik, Stan",
+editor="Garofalakis, Minos
+and Gehrke, Johannes
+and Rastogi, Rajeev",
+title="The Aurora and Borealis Stream Processing Engines",
+bookTitle="Data Stream Management: Processing High-Speed Data Streams",
+year="2016",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="337--359",
+abstract="Over the last several years, a great deal of progress has been made in the area of stream-processing engines (SPEs). Three basic tenets distinguish SPEs from current data processing engines. First, they must support primitives for streaming applications. Unlike Online Transaction Processing (OLTP), which processes messages in isolation, streaming applications entail time series operations on streams of messages. Second, streaming applications entail a real-time component. If one is content to see an answer later, then one can store incoming messages in a data warehouse and run a historical query on the warehouse to find information of interest. This tactic does not work if the answer must be constructed in real time. The need for real-time answers also dictates a fundamentally different storage architecture. DBMSs universally store and index data records before making them available for query activity. Such outbound processing, where data are stored before being processed, cannot deliver real-time latency, as required by SPEs. To meet more stringent latency requirements, SPEs must adopt an alternate model, which we refer to as ``inbound processing'', where query processing is performed directly on incoming messages before (or instead of) storing them. Lastly, an SPE must have capabilities to gracefully deal with spikes in message load. Incoming traffic is usually bursty, and it is desirable to selectively degrade the performance of the applications running on an SPE. The Aurora stream-processing engine, motivated by these three tenets, is currently operational, has been used to build various application systems, and has been transferred to the commercial domain. Borealis is a distributed stream-processing system that inherits core stream-processing functionality from Aurora and enriches it with distribution functionality, in order to provide advanced capabilities that are commonly required by newly emerging stream-processing applications.",
+isbn="978-3-540-28608-0",
+doi="10.1007/978-3-540-28608-0_17",
+url="https://doi.org/10.1007/978-3-540-28608-0_17"
+}
+
+@inproceedings{SparkDStream,
+ author = {Zaharia, Matei and Das, Tathagata and Li, Haoyuan and Hunter, Timothy and Shenker, Scott and Stoica, Ion},
+ title = {Discretized Streams: Fault-tolerant Streaming Computation at Scale},
+ booktitle = {Proceedings of the Twenty-Fourth ACM Symposium on Operating Systems Principles},
+ series = {SOSP '13},
+ year = {2013},
+ isbn = {978-1-4503-2388-8},
+ location = {Farminton, Pennsylvania},
+ pages = {423--438},
+ numpages = {16},
+ url = {http://doi.acm.org/10.1145/2517349.2522737},
+ doi = {10.1145/2517349.2522737},
+ acmid = {2522737},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+} 
+
+%\bibitem{b4} \verb{https://www.dima.tu-berlin.de/menue/research/completed_projects/stratosphere_information_management_above_the_clouds/}
+@misc{StratosphereDIMA,
+  title = {Description of Stratosphere project by participating institute.},
+  howpublished = {\url{https://www.dima.tu-berlin.de/menue/research/completed_projects/stratosphere_information_management_above_the_clouds/}},
+  note = {Accessed: 2019-07-04}
+}
+
+%\bibitem{b5} \url{https://stratosphere.eu/project/publications/}
+@misc{StratospherePublications,
+  title = {List of publications originating from Stratosphere project.},
+  howpublished = {https://stratosphere.eu/project/publications/}},
+  note = {Accessed: 2019-07-05}
+}
+
+%\bibitem{b6} \url{https://dms.sztaki.hu/sites/dms.sztaki.hu/files/file/2014/stratosphere_meetup.pdf}
+@misc{StratosphereScala,
+  title = {},
+  howpublished = {\url{https://dms.sztaki.hu/sites/dms.sztaki.hu/files/file/2014/stratosphere_meetup.pdf}},
+  note = {Accessed: 2019-07-04}
+}
+
+%\bibitem{b7} \url{https://www.tibco.com/press-releases/2013/tibco-software-acquires-streambase-systems}
+@misc{TIBCObuysStreamBase,
+  title = {Press statement on TIBCO buying StreamBase Inc.},
+  howpublished = {\url{https://www.tibco.com/press-releases/2013/tibco-software-acquires-streambase-systems}},
+  note = {Accessed: 2019-07-04}
+}
+
+%\bibitem{b9} \url{https://www.ververica.com/about}
+@misc{VervericaAbout,
+  title = {},
+  howpublished = {\url{https://www.ververica.com/about}},
+  note = {Accessed: 2019-07-04}
+}
+
+%\bibitem{b10} \url{https://www.ververica.com/blog/data-artisans-alibaba-new-chapter-for-open-source-big-data}
+@misc{VervericaAlibaba,
+  title = {Press statement on Alibaba buying Ververica.},
+  howpublished = {\url{https://www.ververica.com/blog/data-artisans-alibaba-new-chapter-for-open-source-big-data}},
+  note = {Accessed: 2019-07-04}
+}
+
+@misc{SparkUsers,
+  title = {Apache Spark Overview of users.},
+  howpublished = {\url{https://spark.apache.org/powered-by.html}},
+  note = {Accessed: 2019-07-09}
+}
+
+@misc{CAWashingtonPost,
+  title = {},
+  howpublished = {\url{https://www.washingtonpost.com/news/the-switch/wp/2018/04/04/facebook-said-the-personal-data-of-most-its-2-billion-users-has-been-collected-and-shared-with-outsiders/?noredirect=on&utm_term=.5c21c59a9502}},
+  note = {Accessed: 2019-07-09}
+}
+
+@misc{CANetzpolitik,
+  title = {},
+  howpublished = {\url{https://netzpolitik.org/2018/cambridge-analytica-was-wir-ueber-das-groesste-datenleck-in-der-geschichte-von-facebook-wissen/}},
+  note = {Accessed: 2019-07-09}
+}
+ BibTeX | EndNote | ACM Ref
+
+@article{MapReduce,
+ author = {Dean, Jeffrey and Ghemawat, Sanjay},
+ title = {MapReduce: Simplified Data Processing on Large Clusters},
+ journal = {Commun. ACM},
+ issue_date = {January 2008},
+ volume = {51},
+ number = {1},
+ month = jan,
+ year = {2008},
+ issn = {0001-0782},
+ pages = {107--113},
+ numpages = {7},
+ url = {http://doi.acm.org/10.1145/1327452.1327492},
+ doi = {10.1145/1327452.1327492},
+ acmid = {1327492},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
+
+@article{NoSQLElephants,
+ author = {Floratou, Avrilia and Teletia, Nikhil and DeWitt, David J. and Patel, Jignesh M. and Zhang, Donghui},
+ title = {Can the Elephants Handle the NoSQL Onslaught?},
+ journal = {Proc. VLDB Endow.},
+ issue_date = {August 2012},
+ volume = {5},
+ number = {12},
+ month = aug,
+ year = {2012},
+ issn = {2150-8097},
+ pages = {1712--1723},
+ numpages = {12},
+ url = {http://dx.doi.org/10.14778/2367502.2367511},
+ doi = {10.14778/2367502.2367511},
+ acmid = {2367511},
+ publisher = {VLDB Endowment},
+}
+
+@inproceedings{RDBMSvsMapReduce,
+ author = {Pavlo, Andrew and Paulson, Erik and Rasin, Alexander and Abadi, Daniel J. and DeWitt, David J. and Madden, Samuel and Stonebraker, Michael},
+ title = {A Comparison of Approaches to Large-scale Data Analysis},
+ booktitle = {Proceedings of the 2009 ACM SIGMOD International Conference on Management of Data},
+ series = {SIGMOD '09},
+ year = {2009},
+ isbn = {978-1-60558-551-2},
+ location = {Providence, Rhode Island, USA},
+ pages = {165--178},
+ numpages = {14},
+ url = {http://doi.acm.org/10.1145/1559845.1559865},
+ doi = {10.1145/1559845.1559865},
+ acmid = {1559865},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {benchmarks, mapreduce, parallel database},
+}
+
+@article{ACID,
+  title={Principles of transaction-oriented database recovery},
+  author={Haerder, Theo and Reuter, Andreas},
+  journal={ACM computing surveys (CSUR)},
+  volume={15},
+  number={4},
+  pages={287--317},
+  year={1983},
+  publisher={ACM}
+}
+@article{Flink2015,
+  title={Apache flink: Stream and batch processing in a single engine},
+  author={Carbone, Paris and Katsifodimos, Asterios and Ewen, Stephan and Markl, Volker and Haridi, Seif and Tzoumas, Kostas},
+  journal={Bulletin of the IEEE Computer Society Technical Committee on Data Engineering},
+  volume={36},
+  number={4},
+  year={2015},
+  publisher={IEEE Computer Society}
+}
